@@ -52,7 +52,7 @@
 
 
 var glosser = (typeof require !== 'undefined')
-              ? require('./glosser/gismudata.js') : null;
+              ? require('./glosser/gismu-data.js') : null;
 
 if (typeof alert !== 'function')
     alert = console.log; // For Node.js
