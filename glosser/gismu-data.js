@@ -135,7 +135,6 @@ const shortDescriptions = {
 "y'y": "'",
 "zy": "Z",
 
-/*
 "ga'e": "BY1",
 "ge'o": "BY1",
 "je'o": "BY1",
@@ -384,11 +383,6 @@ const shortDescriptions = {
 // ZOI: non-Lojban quotes
 "zoi": "ZOI",
 "la'o": "ZOI",
-
-
-*/
-
-
 
 // pro-sumti
 "mi": "I; me",
@@ -1814,3 +1808,5 @@ const shortDescriptions = {
 "zutse": "to sit",
 "zvati": "at"
 }
+
+module.exports = {shortDescriptions: shortDescriptions}
